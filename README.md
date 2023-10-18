@@ -101,13 +101,13 @@ Now go back to your main zgrab2 directory and run ``` make ```.
 It will add new created module in zgrab2.
 Now you can use your new created module.
 
-Zgrab2-Modified$ modules/<new-module>/scanner.go
+Zgrab2-Modified$ modules/new-module/scanner.go
 
-Zgrab2-Modified$ modules/<new-module>.go
+Zgrab2-Modified$ modules/new-module.go
 
 Zgrab2-Modified$ make 
 
-Zgrab2-Modified$ echo <ip-address> | ./zgrab2 <new-module>
+Zgrab2-Modified$ echo <ip-address> | ./zgrab2 new-module
 
 You can confirm the new created module by running 
 ```
