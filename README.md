@@ -1,10 +1,10 @@
 ZGrab 2.0 Modified
 ==================
 
-ZGrab2 Modified is the modified version of zgrab2(https://github.com/zmap/zgrab2) containing some extra modules mentioned below:
-irc 
+ZGrab2 Modified is the modified version of zgrab2 (https://github.com/zmap/zgrab2) containing some extra modules mentioned below:
 
 ```
+irc 
 rmiregistry
 rpcbind
 distccd
