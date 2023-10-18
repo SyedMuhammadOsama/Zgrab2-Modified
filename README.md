@@ -2,12 +2,18 @@ ZGrab 2.0 Modified
 ==================
 
 ZGrab2 Modified is the modified version of zgrab2(https://github.com/zmap/zgrab2) containing some extra modules mentioned below:
-irc
+irc 
+
 rmiregistry
+
 rpcbind
+
 distccd
+
 exec
+
 ajp13
+
 ingreslock
 
 These moduls may be not working as expacted, you can freely change the code to try your logic.
@@ -40,35 +46,65 @@ you can refer to zgrab2 original repo for more detailes https://github.com/zmap/
 
 ## Supported Modules
   bacnet	
+  
   banner
+  
   dnp3  
+  
   fox 
+  
   ftp
+  
   http
+  
   imap
+  
   ipp
+  
   modbus
+  
   mongodb
+  
   mssql
+  
   multiple  Multiple module actions
+  
   mysql
+  
   ntp
+  
   oracle
+  
   pop3
+  
   postgres
+  
   redis
+  
   siemens
+  
   smb
+  
   smtp
+  
   ssh
+  
   telnet
+  
   tls
+  
   irc
+  
   rmiregistry
+  
   rpcbind
+  
   distccd
+  
   exec
+  
   ajp13
+  
   ingreslock
   
 
