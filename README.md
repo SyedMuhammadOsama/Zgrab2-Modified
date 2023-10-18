@@ -32,29 +32,6 @@ echo <ip-address> | ./zgrab2 ssh
 ```
 you can refer to zgrab2 original repo for more detailes https://github.com/zmap/zgrab2
 
-
-
-
-
-```
-141.212.113.199, , tagA
-216.239.38.21, censys.io, tagB
-```
-
-Invoking zgrab2 with the following `multiple` configuration will perform an SSH grab on the first target above and an HTTP grab on the second target:
-
-```
-[ssh]
-trigger="tagA"
-name="ssh22"
-port=22
-
-[http]
-trigger="tagB"
-name="http80"
-port=80
-```
-
 ## Adding New Protocols 
 
 Add module to modules/ that satisfies the following interfaces: `Scanner`, `ScanModule`, `ScanFlags`.
@@ -72,11 +49,23 @@ func init() {
 ```
 Example of Adding new module:
 
-Make a new folder in modules and create a file in that folder having scanning logic
-The structure of the code must satisfies the above interfaces or you can follow prebuilt modules structure
-Now create a new file in modules and add init function. Again you can follow other modules
+Make a new folder in modules and create a file in that folder having scanning logic.
+The structure of the code must satisfies the above interfaces or you can follow prebuilt modules structure.
+Now create a new file in modules and add init function. Again you can follow other modules.
 Now go back to your main zgrab2 directory and run ``` make ```.
-It will add new created module in zgrab2
-Now you can use your new created module
+It will add new created module in zgrab2.
+Now you can use your new created module.
+
+Zgrab2-Modified$ modules/<new-module>/scanner.go
+Zgrab2-Modified$ modules/<new-module>.go
+Zgrab2-Modified$ make 
+Zgrab2-Modified$ echo <ip-address> | ./zgrab2 <new-module>
+
+You can confirm the new created module by running 
+```
+./zgrab2 -h
+```
+The new created module will be there 
+
 
 
