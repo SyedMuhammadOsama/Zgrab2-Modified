@@ -9,13 +9,14 @@ distccd
 exec
 ajp13
 
-These moduls may be not working as expacted, you can freely change the code to try your logic
+These moduls may be not working as expacted, you can freely change the code to try your logic.
+
+The primary objective of this modified version is to offer a cost-effective alternative to Nmap, which can be employed for commercial use without incurring licensing fees or restrictions.
 
 
 ## Building
 
 you just need to to clone this repositary
-
 
 ```
 git clone https://github.com/SyedMuhammadOsama/Zgrab2-Modified
