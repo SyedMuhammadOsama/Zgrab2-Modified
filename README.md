@@ -8,6 +8,7 @@ rpcbind
 distccd
 exec
 ajp13
+ingreslock
 
 These moduls may be not working as expacted, you can freely change the code to try your logic.
 
@@ -31,7 +32,45 @@ ZGrab2 supports modules. For example, to run the ssh module use
 ```
 echo <ip-address> | ./zgrab2 ssh
 ```
+Alternatively, the goal is to enable the execution of scans on targets saved in a CSV file while storing the resulting output in a JSON format.
+```
+./zgrab2 http -f target.csv -o http_80_result.json
+```
 you can refer to zgrab2 original repo for more detailes https://github.com/zmap/zgrab2
+
+## Supported Modules
+  bacnet	
+  banner
+  dnp3  
+  fox 
+  ftp
+  http
+  imap
+  ipp
+  modbus
+  mongodb
+  mssql
+  multiple  Multiple module actions
+  mysql
+  ntp
+  oracle
+  pop3
+  postgres
+  redis
+  siemens
+  smb
+  smtp
+  ssh
+  telnet
+  tls
+  irc
+  rmiregistry
+  rpcbind
+  distccd
+  exec
+  ajp13
+  ingreslock
+  
 
 ## Adding New Protocols 
 
