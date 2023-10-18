@@ -13,7 +13,7 @@ ajp13
 ingreslock
 ```
 
-These moduls may be not working as expacted, you can freely change the code to try your logic.
+These modules may not function as expected, allowing you the freedom to modify the code to test your own logic.
 
 The primary objective of this modified version is to offer a cost-effective alternative to Nmap, which can be employed for commercial use without incurring licensing fees or restrictions.
 
