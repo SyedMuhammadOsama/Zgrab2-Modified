@@ -113,7 +113,3 @@ You can confirm the new created module by running
 ```
 ./zgrab2 -h
 ```
-The new created module will be there 
-
-
-
